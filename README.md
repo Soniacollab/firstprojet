@@ -6,18 +6,15 @@ Ce projet consiste à cloner un dépôt GitHub, changer l’origine du dépôt, 
 
 ## **1. Clonage du Dépôt Initial**
 Commande utilisée :
-```bash
 git clone https://github.com/cecilev-axe/tp-bachelor.git
 Description du Projet
 
 2. Changer l’origine (remote)
-git remote set-url origin https://github.com/votre-utilisateur/nom-du-depot.git
+git remote set-url origin https://github.com/Soniacollab/firstprojet.git
 3. Vérifier le remote
 git remote -v
 
-Voici un fichier README.md regroupant toutes les étapes et commandes demandées :
 
-markdown
 Copier le code
 # Instructions pour le projet Git
 
@@ -27,12 +24,6 @@ Cloner le dépôt Git initial depuis l'adresse suivante :
 ```bash
 git clone https://github.com/cecilev-axe/tp-bachelor.git
 Cette commande crée une copie locale du dépôt distant sur votre machine.
-
-2. Changer l’origine (remote)
-
-bash
-Copier le code
-git remote set-url origin https://github.com/votre-utilisateur/nom-du-depot.git
 
 
 3. Vérifier le remote
